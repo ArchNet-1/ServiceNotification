@@ -1,0 +1,20 @@
+{
+  "name": "com.archnet.service.notification",
+  "version": "2.0.0",
+  "displayName": "ArchNet - Notification Service",
+  "description": "In-game notifications (toasts): info, success, warning and error messages in a corner of the screen, a few at a time, the others waiting their turn. Services.Get<GameNotifications>().Success(\"Saved\").",
+  "unity": "6000.0",
+  "license": "MIT",
+  "documentationUrl": "https://archnet-plateform.fr/#ServiceNotification",
+  "changelogUrl": "https://github.com/ArchNet-1/ServiceNotification/blob/main/CHANGELOG.md",
+  "licensesUrl": "https://github.com/ArchNet-1/ServiceNotification/blob/main/LICENSE.md",
+  "dependencies": {
+    "com.unity.ugui": "2.0.0"
+  },
+  "keywords": ["archnet", "service", "notification", "toast", "message"],
+  "author": {
+    "name": "ArchNet",
+    "email": "archnetmodule@gmail.com",
+    "url": "https://archnet-plateform.fr"
+  }
+}

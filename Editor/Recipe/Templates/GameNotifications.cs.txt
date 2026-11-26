@@ -1,0 +1,17 @@
+// Created by the ArchNet Hub (Services > Notifications). This file is yours: change it freely.
+// Show a notification from anywhere:
+//   Services.Get<GameNotifications>().Success("Game saved");
+//   Services.Get<GameNotifications>().Error("Check your network.", "No connection");
+// Restyle them: Assets/ArchNet/Notifications/Prefabs/Notifications.prefab
+// Docs: https://archnet-plateform.fr/#ServiceNotification
+
+using ArchNet.Service;
+
+namespace {{NAMESPACE}}
+{
+    public class GameNotifications : NotificationService
+    {
+        // Messages your game shows often, in one place. For example:
+        public void AchievementUnlocked(string name) => Success(name, "Achievement unlocked");
+    }
+}
